@@ -1,0 +1,26 @@
+{
+    "name": "nickfairchild/kynda-theme",
+    "description": "Code for website",
+    "authors": [
+        {
+            "name": "Nick Fairchild",
+            "email": "nick.fairchild@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/support": "^8.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
