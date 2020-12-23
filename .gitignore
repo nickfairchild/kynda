@@ -1,0 +1,33 @@
+# Application
+public/wp-content/plugins/*
+!public/wp-content/plugins/.gitkeep
+public/wp-content/upgrade
+public/wp-content/uploads
+!public/wp-content/uploads/.gitkeep
+
+# WordPress
+public/wp
+public/.htaccess
+
+# Files
+*.sql
+*.tar
+*.zip
+.DS_Store
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+# IDE
+.idea

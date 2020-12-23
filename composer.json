@@ -1,0 +1,62 @@
+{
+  "name": "nickfairchild/kynda",
+  "type": "project",
+  "description": "WordPress boilerplate using composer.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fairchild",
+      "email": "nick.fairchild@gmail.com"
+    }
+  ],
+  "keywords": [
+    "composer", "wordpress", "wp", "wp-config"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    }
+  ],
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "composer/installers": "^1.9",
+    "johnpbloch/wordpress": ">=5.6",
+    "oscarotero/env": "^2.1",
+    "vlucas/phpdotenv": "^5.2"
+  },
+  "require-dev": {
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
+    "wpackagist-plugin/contact-form-7": "^5.2.2",
+    "wpackagist-plugin/duplicate-post": "^3.2.6",
+    "wpackagist-plugin/ewww-image-optimizer": "^5.8.2",
+    "wpackagist-plugin/flamingo": "^2.2",
+    "wpackagist-plugin/query-monitor": "^3.6.4",
+    "wpackagist-plugin/redis-cache": "^2.0.15",
+    "wpackagist-plugin/wordpress-seo": "^15.2.1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "installer-paths": {
+      "public/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "public/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    },
+    "wordpress-install-dir": "public/wp"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  }
+}
