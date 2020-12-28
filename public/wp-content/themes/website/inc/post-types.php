@@ -1,1 +1,3 @@
 <?php
+
+postType('job')->set();

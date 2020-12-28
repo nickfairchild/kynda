@@ -5,6 +5,7 @@ define('WP_DEBUG', true);
 define('WP_DEBUG_DISPLAY', true);
 define('WP_DISABLE_FATAL_ERROR_HANDLER', true);
 define('SCRIPT_DEBUG', true);
+define('WP_LOCAL_DEV', true);
 
 ini_set('display_errors', '1');
 

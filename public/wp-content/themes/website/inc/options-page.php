@@ -16,10 +16,10 @@ add_action('acf/init', function () {
             'parent_slug' => $optionPage['menu_slug'],
         ));
 
-        acf_add_options_page(array(
-            'page_title' => __('Map Settings'),
-            'menu_title' => __('Map'),
-            'parent_slug' => $optionPage['menu_slug'],
-        ));
+//        acf_add_options_page(array(
+//            'page_title' => __('Map Settings'),
+//            'menu_title' => __('Map'),
+//            'parent_slug' => $optionPage['menu_slug'],
+//        ));
     }
 });

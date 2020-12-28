@@ -1,7 +1,8 @@
 const mix = require('laravel-mix')
 
-mix.js('assets/js/front.js', 'public/js')
+mix
     .setPublicPath('public')
+    .js('assets/js/front.js', 'public/js')
     .postCss('assets/css/front.css', 'public/css', [
         require('postcss-import'),
         require('tailwindcss'),
