@@ -1,9 +1,11 @@
 # Application
+public/wp-content/languages/*
 public/wp-content/plugins/*
 !public/wp-content/plugins/.gitkeep
-public/wp-content/upgrade
+public/wp-content/upgrade/*
 public/wp-content/uploads/*
 !public/wp-content/uploads/.gitkeep
+public/wp-content/*.php
 
 # WordPress
 public/wp
