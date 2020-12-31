@@ -4,8 +4,9 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Project variables
-set('application', 'example');
 set('local_url', 'example.test');
+set('staging_url', 'example.test');
+set('prod_url', 'example.test');
 set('site', 'website');
 set('ip', '127.0.0.1');
 set('db_name', '{{site}}.sql');
@@ -14,7 +15,14 @@ set('db_name', '{{site}}.sql');
 host('{{ip}}')
     ->user('forge')
     ->stage('staging')
-    ->set('deploy_path', '~/{{application}}');
+    ->set('application', '{{staging_url}}')
+    ->set('deploy_path', '~/{{staging_url}}');
+
+host('')
+    ->user('forge')
+    ->stage('prod')
+    ->set('application', '{{prod_url}}')
+    ->set('deploy_path', '~/{{prod_url}}');
 
 // Tasks
 desc('Setup Theme');
