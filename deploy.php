@@ -4,13 +4,14 @@ namespace Deployer;
 require 'recipe/common.php';
 
 // Project name
-set('application', 'kynda.nickfairchild.website');
-set('local_url', 'kynda.test');
+set('application', 'example');
+set('local_url', 'example.test');
 set('site', 'website');
+set('ip', '127.0.0.1');
 set('db_name', '{{site}}.sql');
 
 // Project repository
-set('repository', 'git@github.com:nickfairchild/kynda.git');
+set('repository', 'git@github.com:user/repo.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true);
@@ -24,7 +25,7 @@ set('writable_dirs', []);
 set('allow_anonymous_stats', false);
 
 // Hosts
-host('143.110.165.159')
+host('{{ip}}')
     ->user('forge')
     ->stage('staging')
     ->set('deploy_path', '~/{{application}}');

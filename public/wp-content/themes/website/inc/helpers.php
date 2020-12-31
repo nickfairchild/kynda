@@ -55,7 +55,7 @@ if (! function_exists('collect')) {
 if (! function_exists('postType')) {
     function postType(string $singular, ?string $plural = null): PostType
     {
-        return new PostType($singular, $plural);
+        return (new PostType)->create($singular, $plural);
     }
 }
 

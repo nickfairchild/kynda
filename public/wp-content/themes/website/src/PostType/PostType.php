@@ -12,15 +12,12 @@ class PostType
 
     protected \WP_Post_Type $postType;
 
-    public function __construct(?string $singular = null, ?string $plural = null)
+    public function create($singular = null, $plural = null)
     {
         $this->id = strtolower($singular);
         $this->args = $this->setDefaultArguments($singular, $plural);
-    }
 
-    public static function create($singular = null, $plural = null)
-    {
-        return new static($singular, $plural);
+        return $this;
     }
 
     public function set($settings = []): self
