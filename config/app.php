@@ -14,6 +14,7 @@ if (file_exists($rootDir.'/.env')) {
 
 /** Environment */
 define('WP_ENV', env('WP_ENV') ?: 'production');
+define('WP_DEFAULT_THEME', env('WP_DEFAULT_THEME') ?: 'website');
 
 /** URLs */
 define('WP_HOME', env('WP_HOME'));
