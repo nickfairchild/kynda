@@ -7,5 +7,3 @@ $theme->autoloadDirectory(__DIR__.'/inc');
 
 $kernel = $theme->make(\App\Foundation\Kernel::class);
 $kernel->bootstrap();
-
-//dd($theme);

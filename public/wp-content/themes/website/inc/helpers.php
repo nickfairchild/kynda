@@ -17,14 +17,14 @@ if (! function_exists('app')) {
 }
 
 if (! function_exists('asset')) {
-    function asset($key, $manifest = null)
+    function asset(string $key, $manifest = null): string
     {
         return app('assets')->manifest($manifest)->get($key);
     }
 }
 
 if (! function_exists('config')) {
-    function config($key = null, $default = null)
+    function config(?string $key = null, $default = null)
     {
         if (is_null($key)) {
             return app('config');
@@ -46,7 +46,7 @@ if (! function_exists('now')) {
 }
 
 if (! function_exists('collect')) {
-    function collect($items): Collection
+    function collect(array $items): Collection
     {
         return Collection::make($items);
     }

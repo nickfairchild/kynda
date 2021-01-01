@@ -10,16 +10,16 @@ add_action('acf/init', function () {
             'redirect' => false,
         ]);
 
-        acf_add_options_page(array(
+        acf_add_options_sub_page([
             'page_title' => __('Social Settings'),
             'menu_title' => __('Social'),
             'parent_slug' => $optionPage['menu_slug'],
-        ));
+        ]);
 
-//        acf_add_options_page(array(
+//        acf_add_options_sub_page([
 //            'page_title' => __('Map Settings'),
 //            'menu_title' => __('Map'),
 //            'parent_slug' => $optionPage['menu_slug'],
-//        ));
+//        ]);
     }
 });
