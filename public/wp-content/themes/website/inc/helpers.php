@@ -17,7 +17,7 @@ if (! function_exists('app')) {
 }
 
 if (! function_exists('asset')) {
-    function asset(string $key, $manifest = null): string
+    function asset(string $key, $manifest = null)
     {
         return app('assets')->manifest($manifest)->get($key);
     }
