@@ -1,7 +1,7 @@
 <?php
 
-use App\Container\Container;
-use App\PostType\PostType;
+use Kynda\Container\Container;
+use Kynda\PostType\PostType;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
 

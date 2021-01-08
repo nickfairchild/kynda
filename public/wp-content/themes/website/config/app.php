@@ -11,16 +11,16 @@ return [
     'locale' => get_locale(),
 
     'providers' => [
-        \App\Providers\FilesystemServiceProvider::class,
-        \App\Providers\ThemeServiceProvider::class,
-        \App\Assets\AssetsServiceProvider::class,
-        \App\Providers\CleanupServiceProvider::class,
-        \App\Providers\DisableAssetVersioningProvider::class,
-//        \App\Providers\DisableRestApiProvider::class,
-        \App\Providers\DisableTrackbacksProvider::class,
-        \App\Providers\JsToFooterProvider::class,
-        \App\Providers\NiceSearchProvider::class,
-        \App\Providers\RelativeUrlsProvider::class,
+        \Kynda\Providers\FilesystemServiceProvider::class,
+        \Kynda\Providers\ThemeServiceProvider::class,
+        \Kynda\Assets\AssetsServiceProvider::class,
+        \Kynda\Providers\CleanupServiceProvider::class,
+        \Kynda\Providers\DisableAssetVersioningProvider::class,
+//        \Kynda\Providers\DisableRestApiProvider::class,
+        \Kynda\Providers\DisableTrackbacksProvider::class,
+        \Kynda\Providers\JsToFooterProvider::class,
+        \Kynda\Providers\NiceSearchProvider::class,
+        \Kynda\Providers\RelativeUrlsProvider::class,
     ],
 
 ];

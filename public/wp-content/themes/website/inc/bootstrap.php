@@ -1,10 +1,10 @@
 <?php
 
-$app = new App\Theme(dirname(__DIR__));
+$app = new Kynda\Application(dirname(__DIR__));
 
 $app->singleton(
-    \App\Contracts\Kernel::class,
-    \App\Foundation\Kernel::class
+    \Kynda\Contracts\Kernel::class,
+    \Kynda\Foundation\Kernel::class
 );
 
 return $app;
