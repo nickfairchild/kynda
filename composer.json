@@ -30,7 +30,7 @@
   "require-dev": {
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
     "wpackagist-plugin/contact-form-7": "^5.2.2",
-    "wpackagist-plugin/duplicate-post": "^3.2.6",
+    "wpackagist-plugin/duplicate-post": "^4.0.1",
     "wpackagist-plugin/ewww-image-optimizer": "^5.8.2",
     "wpackagist-plugin/flamingo": "^2.2",
     "wpackagist-plugin/query-monitor": "^3.6.4",
