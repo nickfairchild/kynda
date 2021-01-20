@@ -32,7 +32,7 @@
     "wpackagist-plugin/autoptimize": "^2.8",
     "wpackagist-plugin/contact-form-7": "^5.2.2",
     "wpackagist-plugin/duplicate-post": "^4.0.2",
-    "wpackagist-plugin/ewww-image-optimizer": "^5.8.2",
+    "wpackagist-plugin/ewww-image-optimizer": "^6.0.0",
     "wpackagist-plugin/flamingo": "^2.2",
     "wpackagist-plugin/query-monitor": "^3.6.4",
     "wpackagist-plugin/redis-cache": "^2.0.17",
