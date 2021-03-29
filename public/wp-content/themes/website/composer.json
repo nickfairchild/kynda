@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": "^7.4 | ^8.0",
-        "nickfairchild/kynda-framework": "*"
+        "nickfairchild/kynda-framework": "^0.1"
     },
     "config": {
         "preferred-install": "dist",
