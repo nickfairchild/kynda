@@ -29,7 +29,6 @@
   },
   "require-dev": {
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
-    "wpackagist-plugin/autoptimize": "^2.8",
     "wpackagist-plugin/contact-form-7": "^5.2.2",
     "wpackagist-plugin/duplicate-post": "^4.0.2",
     "wpackagist-plugin/ewww-image-optimizer": "^6.0.1",

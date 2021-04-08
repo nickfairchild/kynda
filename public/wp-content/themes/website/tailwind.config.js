@@ -1,6 +1,10 @@
 module.exports = {
+    mode: 'jit',
     purge: [
-        './*.php'
+        './*.php',
+        './inc/*.php',
+        './templates/*.php',
+        './assets/**/*.{js,jsx,ts,tsx,vue}'
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
@@ -9,9 +13,6 @@ module.exports = {
             black: '#222222',
             white: '#ffffff',
         },
-        extend: {},
-    },
-    variants: {
         extend: {},
     },
     plugins: [

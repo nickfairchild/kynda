@@ -1,6 +1,6 @@
 {
-    "/js/front.js": "/js/front.js",
-    "/js/manifest.js": "/js/manifest.js",
-    "/css/front.css": "/css/front.css",
-    "/js/vendor.js": "/js/vendor.js"
+    "/js/front.js": "/js/front.js?id=01f2f41174b92a16eef2",
+    "/js/manifest.js": "/js/manifest.js?id=a4bca51c3d34cbec95cc",
+    "/css/front.css": "/css/front.css?id=9e0e87da061ffd4a1537",
+    "/js/vendor.js": "/js/vendor.js?id=e9aa59325757c3741a81"
 }

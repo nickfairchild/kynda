@@ -20,7 +20,8 @@ return [
         \Kynda\Providers\DisableTrackbacksProvider::class,
         \Kynda\Providers\JsToFooterProvider::class,
         \Kynda\Providers\NiceSearchProvider::class,
-        \Kynda\Providers\RelativeUrlsProvider::class,
+//        \Kynda\Providers\RelativeUrlsProvider::class,
+        \NickFairchild\Backup\BackupServiceProvider::class,
     ],
 
 ];
