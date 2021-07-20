@@ -24,6 +24,7 @@
     "ext-dom": "*",
     "composer/installers": "^1.9",
     "johnpbloch/wordpress": ">=5.6",
+    "laravel/sail": "^1.4",
     "oscarotero/env": "^2.1",
     "vlucas/phpdotenv": "^5.2"
   },
