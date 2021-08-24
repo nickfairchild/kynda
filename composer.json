@@ -37,7 +37,7 @@
     "wpackagist-plugin/query-monitor": "^3.6.4",
     "wpackagist-plugin/redis-cache": "^2.0.17",
     "wpackagist-plugin/speed-booster-pack": "^4.0",
-    "wpackagist-plugin/wordpress-seo": "^16.0.2"
+    "wpackagist-plugin/wordpress-seo": "^17.0"
   },
   "config": {
     "optimize-autoloader": true,
