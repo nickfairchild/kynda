@@ -14,7 +14,7 @@
         "@tailwindcss/forms": "^0.3.3",
         "@tailwindcss/typography": "^0.4.1",
         "alpinejs": "^3.3.3",
-        "autoprefixer": "^10.3.4",
+        "autoprefixer": "^10.3.6",
         "cross-env": "^7.0.2",
         "laravel-mix": "^6.0.31",
         "postcss": "^8.3.6",
