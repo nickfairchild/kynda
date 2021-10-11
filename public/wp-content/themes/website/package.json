@@ -10,13 +10,13 @@
         "production": "mix --production"
     },
     "devDependencies": {
-        "@tailwindcss/aspect-ratio": "^0.2.1",
+        "@tailwindcss/aspect-ratio": "^0.3.0",
         "@tailwindcss/forms": "^0.3.4",
         "@tailwindcss/typography": "^0.4.1",
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.3.7",
         "cross-env": "^7.0.2",
-        "laravel-mix": "^6.0.31",
+        "laravel-mix": "^6.0.32",
         "postcss": "^8.3.9",
         "postcss-import": "^14.0.2",
         "postcss-nested": "^5.0.6",
