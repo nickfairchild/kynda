@@ -2445,15 +2445,15 @@
         },
         {
             "name": "wpackagist-plugin/speed-booster-pack",
-            "version": "4.3.2",
+            "version": "4.3.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/speed-booster-pack/",
-                "reference": "tags/4.3.2"
+                "reference": "tags/4.3.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/speed-booster-pack.4.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/speed-booster-pack.4.3.3.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
